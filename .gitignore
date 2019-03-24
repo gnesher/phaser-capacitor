@@ -1,0 +1,7 @@
+/node_modules
+/dist
+/android
+/electron
+/ios
+/.cache
+/.vscode
