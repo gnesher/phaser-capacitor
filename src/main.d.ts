@@ -1,1 +1,0 @@
-export const BUILD_TARGET: string;

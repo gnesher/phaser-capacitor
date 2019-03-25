@@ -1,3 +1,5 @@
+import { buildTargets } from "../constants";
+
 export class MainScene extends Phaser.Scene {
   
   
@@ -11,7 +13,6 @@ export class MainScene extends Phaser.Scene {
   
     preload(): void {
       this.load.image("logo", "./assets/phaser.png");
-      console.log(BUILD_TARGET);
     }
   
     create(): void {

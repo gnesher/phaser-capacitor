@@ -1,6 +1,6 @@
 {
   "name": "capcaitor-phaser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Skeleton Phaser app build around Ionic Capacitor which allows deployment to Android, iOS and Desktop (via Electron)",
   "author": {
     "name": "Guy Nesher",

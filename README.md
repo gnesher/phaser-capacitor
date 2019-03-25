@@ -19,6 +19,8 @@ Electron builds work a little differently as there's no IDE (like Android / Xcod
 
 > If you wish to bundle your Electron app you will need to install a seperate bundler like electron-builder https://github.com/electron-userland/electron-builder. A complete guide can be find in the supplied link and there are additional bundlers you can choose.
 
+> Webpack exposes a global variable called BUILD_TARGET which contains the target platform (ios, android, electron or web) - web is the default when not building for a specific platform
+
 ### important
 - While multiple deployment targets are supported different targets (desktop / mobile) will likely require some code changes.
 - This is still a work in progress, comments & suggestions are welcome
