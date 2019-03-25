@@ -1,3 +1,5 @@
+import { buildTargets } from "../constants";
+
 export class MainScene extends Phaser.Scene {
   
   
