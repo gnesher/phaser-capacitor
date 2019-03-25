@@ -9,9 +9,9 @@
   "scripts": {
     "dev": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
-    "build-android": "webpack --mode production && npx cap copy android && npx cap open android",
-    "build-ios": "webpack --mode production && npx cap copy ios && npx cap open ios",
-    "build-electron": "webpack --mode production && npx cap copy electron"
+    "build-android": "webpack --mode production --env.android && npx cap copy android && npx cap open android",
+    "build-ios": "webpack --mode production --env.ios && npx cap copy ios && npx cap open ios",
+    "build-electron": "webpack --mode production --env.electron && npx cap copy electron"
   },
   "license": "MIT",
   "dependencies": {
@@ -27,7 +27,7 @@
     "mini-css-extract-plugin": "^0.5.0",
     "ts-loader": "5.3.3",
     "typescript": "3.3.3",
-    "webpack": "4.29.4",
+    "webpack": "4.29.6",
     "webpack-cli": "3.2.3",
     "webpack-dev-server": "3.1.14"
   }

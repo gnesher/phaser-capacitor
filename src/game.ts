@@ -1,5 +1,6 @@
 import "phaser";
 import { MainScene } from "./scenes/main-scene";
+declare const BUILD_TARGET: string;
 
 // main game configuration
 const config: GameConfig = {
