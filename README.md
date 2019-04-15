@@ -1,6 +1,8 @@
 # Phaser-Capacitor boilerplate
 This skeleton app allows you to easily develop a Phaser 3 game for iOS / Android / Desktop using the Ionic Capacitor library. It uses Typescript (though can also be written in JS) and Webpack
 
+* Ionic Capacitor is still in Beta and there are some bugs / quirks that are still being ironed out. Head to https://github.com/ionic-team/capacitor to find more about it's current progress.
+
 ### Installation
 Simply clone or download the repository and then run 
 ```npm install``` within the folder
@@ -24,6 +26,7 @@ Electron builds work a little differently as there's no IDE (like Android / Xcod
 ### important
 - While multiple deployment targets are supported different targets (desktop / mobile) will likely require some code changes.
 - This is still a work in progress, comments & suggestions are welcome
+- Some users reported problems with running the electron app in the first attempt. If you encounter a problem when running ```npm run electron:start``` You might need to run ```npm install``` within the electrong folder first.
 
 Guy N.
 
