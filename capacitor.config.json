@@ -2,5 +2,5 @@
   "appId": "com.example.app",
   "appName": "App",
   "bundledWebRuntime": false,
-  "webDir": "src"
+  "webDir": "dist"
 }
