@@ -1,7 +1,8 @@
-/node_modules
-/dist
-/android
-/electron
-/ios
-/.cache
-/.vscode
+node_modules/
+dist/*
+!dist/index.html
+android/
+electron/
+ios/
+.cache/
+.vscode/
