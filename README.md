@@ -3,6 +3,8 @@ This skeleton app allows you to easily develop a Phaser 3 game for iOS / Android
 
 * Ionic Capacitor is still in Beta and there are some bugs / quirks that are still being ironed out. Head to https://github.com/ionic-team/capacitor to find more about it's current progress.
 
+* important! Electron recently came out with a major release (5) which is still not supported by Capacitor at the moment. 
+
 ### Installation
 Simply clone or download the repository and then run 
 ```npm install``` within the folder
