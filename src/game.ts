@@ -3,7 +3,7 @@ import { MainScene } from "./scenes/main-scene";
 declare const BUILD_TARGET: string;
 
 // main game configuration
-const config: GameConfig = {
+const config: Phaser.Types.Core.GameConfig = {
     width: 800,
     height: 600,
     type: Phaser.AUTO,
@@ -15,7 +15,7 @@ const config: GameConfig = {
 };
 
 export class Game extends Phaser.Game {
-    constructor(config: GameConfig) {
+    constructor(config: Phaser.Types.Core.GameConfig) {
         super(config);
     }
 }
